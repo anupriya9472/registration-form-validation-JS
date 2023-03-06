@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mulish:wght@500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --myfont: 'Mulish', sans-serif;
+    --my-btn-font: 'Montserrat', sans-serif;
+    --lg-lightcolor: linear-gradient(to left, rgba(116, 235, 213, 0.6), rgba(159, 172, 230, 0.5));
+    --lg-color: linear-gradient(to left, #EA738DFF, #89ABE3FF);
+}
+
+.main_container{
+    background-image: var(--lg-lightcolor), url("../images/bg-cafe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: var(--myfont);
+    min-height: 700px;
+    width: 100%;
+}
+
+.header{
+    background: var(--lg-color);
+    padding: 12px 0;
+    text-align: center;
+}
+
+.header h2{
+    color: #222;
+    font-family: var(--my-btn-font);
+    text-transform: uppercase;
+    text-align: center;
+}
+
